@@ -20,6 +20,10 @@ link: https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElb
 ## 四类算法
 
 - 贪心算法: 只考虑当前最优，不考虑全局最优，这种方法叫做贪心
+  * 解决优化问题
+  * 不会考虑过去的决策
+  * 局部最优下的选择结果
+  * 每次都选择局部最优解
 - 分而治之算法(递归思想)
 - 动态规划
 - 暴力
