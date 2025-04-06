@@ -62,6 +62,22 @@ return sb.reverse().toString();
 2. Arrays.sort(数组)
 3. new String(数组)
 
+- 比较两个数组是否相同
+```java
+    public boolean isAnagram(String s, String t) {
+  char[] sChars = s.toCharArray();
+  char[] tChars = t.toCharArray();
+
+  Arrays.sort(sChars);
+  Arrays.sort(tChars);
+
+  String sStr = new String(sChars);
+  String tStr = new String(tChars);
+
+  return sStr.equals(tStr);
+}
+```
+
 - 倒序输出字符串
 ```java
 System.out.println(new StringBuffer(s).reverse());
