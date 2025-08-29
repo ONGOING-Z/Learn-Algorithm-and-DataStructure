@@ -15,9 +15,15 @@
   * [796](string/796.md)
   * [1614](string/1614.md)
   * [1189](string/1189.md)
-* [棧](stack/stack.md)
-* [队列](stack/stack.md)
-* [hash](src/map/hashMap.md)
-  * [496](src/map/496.md)
+* [栈](stack/stack.md)
+* [队列](queue/queue.md)
+* [哈希](map/map.md)
+  * [496](map/496.md)
 * [树](tree/tree.md)
 * [图](graph/graph.md)
+
+## 基础
+
+* [时间复杂度](basics/time_complexity.md)
+* [数据结构笔记](basics/data-structure.md)
+* [算法综述](basics/algorithms.md)
