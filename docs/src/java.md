@@ -73,7 +73,7 @@ ThreadLocal
 - 传递数据：在同一线程内，不同组件间传递公共变量
 - 线程隔离：每个线程内的变量相互独立，不会互相影响。
 
-![](img/img.png)
+![](/assets/basics/img.png)
 
 ## Constant
 - Integer.MAX_VALUE

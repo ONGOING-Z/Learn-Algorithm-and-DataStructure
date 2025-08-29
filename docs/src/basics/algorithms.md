@@ -12,7 +12,7 @@ while(i<=n)     //可假设运行x次
   i=i*2;         //可假设运行x次
 }
 ```
-![](../images/complexity-eg1.png)
+![](/assets/data-structure/complexity-eg1.png)
 #### Time complexity of a computer program
 
 link: https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn&index=2&t=0s
