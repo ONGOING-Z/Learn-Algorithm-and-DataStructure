@@ -1,0 +1,26 @@
+name: Format & Markdown Lint
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  check-format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Prettier check (Markdown/JSON/YAML)
+        run: npx --yes prettier@3.3.3 --check "**/*.{md,markdown,json,yml,yaml}"
+
+      - name: markdownlint-cli2
+        run: npx --yes markdownlint-cli2@0.14.0 "**/*.md" "!docs/docs/**"
+
