@@ -1,0 +1,22 @@
+# Build outputs
+docs/docs/
+node_modules/
+
+# Binaries and images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
+
+# GitBook caches
+docs/_book/
+
+# CI
+.github/
+
+# Data files
+*.csv
+*.tsv
+

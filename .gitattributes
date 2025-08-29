@@ -1,0 +1,14 @@
+* text=auto eol=lf
+
+# Treat common binary assets as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.svg binary
+
+# Docs are documentation for linguist
+docs/** linguist-documentation
+images/** linguist-documentation
+
